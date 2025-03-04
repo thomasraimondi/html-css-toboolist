@@ -135,6 +135,8 @@ section div.list div.element span {
   padding: 0 5px;
 }
 
+/********************* Tag *****************************/
+
 section div.list div.element span.tag {
   display: inline-block;
   padding: 5px;
