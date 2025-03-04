@@ -128,11 +128,6 @@ section details.list summary::marker {
   font-size: 0.9rem;
 }
 
-/* section details.list summary::before {
-  content: "▾ ";
-  font-size: 1.5rem;
-} */
-
 /********************* List Item *****************************/
 
 section details.list div.element {
