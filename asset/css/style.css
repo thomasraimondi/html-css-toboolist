@@ -16,12 +16,6 @@ body {
   margin: 0 auto;
 }
 
-main section button {
-  padding: 5px;
-  border: 1px solid #ced0cf;
-  border-radius: 5px;
-}
-
 /* Utils */
 
 .border {
@@ -41,16 +35,12 @@ main section button {
   vertical-align: middle;
 }
 
-.bg-white {
-  background-color: white;
-}
-
-.pdlr-50 {
+.padding-left-right-50 {
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.pdtd-20 {
+.padding-top-bottom-20 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -77,13 +67,45 @@ main section button {
   color: red;
 }
 
+.bg-white {
+  background-color: white;
+}
+
+.bg-blue {
+  background-color: #3daff2;
+}
+.bg-darkgree {
+  background-color: #65c3ac;
+}
+.bg-violet {
+  background-color: #9c72e9;
+}
+.bg-orange {
+  background-color: #eea337;
+}
+.bg-pink {
+  background-color: #d6679e;
+}
+.bg-green {
+  background-color: #afc92a;
+}
+
 /* Header */
+header div {
+  padding: 5px;
+}
 
 header .logo img {
   width: 50px;
 }
 
 /* Main */
+
+main section button {
+  padding: 5px;
+  border: 1px solid #ced0cf;
+  border-radius: 5px;
+}
 
 div.container {
   margin-top: 30px;
@@ -104,6 +126,7 @@ div section.container button#addsection {
 }
 
 /* list section */
+
 section div.list {
   margin-bottom: 30px;
 }
@@ -118,4 +141,12 @@ section div.list div.element {
 
 section div.list div.element span {
   padding: 0 5px;
+}
+
+section div.list div.element span.tag {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ced0cf;
+  font-size: 0.6rem;
 }
