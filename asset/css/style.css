@@ -1,4 +1,4 @@
-/* Reset */
+/********************* Reset *****************************/
 * {
   margin: 0;
   padding: 0;
@@ -12,23 +12,11 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-/* Utils */
-
-.border {
-  border: 1px solid;
-}
-
-.border.green {
-  border-color: greenyellow;
-}
-
-.border-red {
-  border-color: red;
-}
+/********************* Utils *****************************/
 
 .align-middle {
   display: inline-block;
@@ -90,7 +78,8 @@ body {
   background-color: #afc92a;
 }
 
-/* Header */
+/********************* Header *****************************/
+
 header div {
   padding: 5px;
 }
@@ -99,12 +88,12 @@ header .logo img {
   width: 50px;
 }
 
-/* Main */
+/********************* Main *****************************/
 
 main section button {
   padding: 5px;
-  border: 1px solid #ced0cf;
   border-radius: 5px;
+  border: 1px solid #ced0cf;
 }
 
 div.container {
@@ -113,7 +102,7 @@ div.container {
   padding: 10px 30px;
 }
 
-/* Butoon Section */
+/********************* Section Button *****************************/
 
 div section.container button#addtask {
   background-color: #46adf3;
@@ -125,16 +114,19 @@ div section.container button#addsection {
   color: #ced0cf;
 }
 
-/* list section */
+/********************* List *****************************/
 
 section div.list {
   margin-bottom: 30px;
 }
 
 section div.list h2::before {
-  content: "▼ ";
-  font-size: 0.8rem;
+  content: "▾ ";
+  font-size: 1.5rem;
 }
+
+/********************* List Item *****************************/
+
 section div.list div.element {
   margin: 10px 0;
 }
