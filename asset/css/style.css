@@ -116,28 +116,36 @@ div section.container button#addsection {
 
 /********************* List *****************************/
 
-section div.list {
+section details.list {
   margin-bottom: 30px;
 }
 
-section div.list h2::before {
-  content: "▾ ";
+section details.list summary {
   font-size: 1.5rem;
 }
 
+section details.list summary::marker {
+  font-size: 0.9rem;
+}
+
+/* section details.list summary::before {
+  content: "▾ ";
+  font-size: 1.5rem;
+} */
+
 /********************* List Item *****************************/
 
-section div.list div.element {
+section details.list div.element {
   margin: 10px 0;
 }
 
-section div.list div.element span {
+section details.list div.element span {
   padding: 0 5px;
 }
 
 /********************* Tag *****************************/
 
-section div.list div.element span.tag {
+section details.list div.element span.tag {
   display: inline-block;
   padding: 5px;
   border-radius: 10px;
