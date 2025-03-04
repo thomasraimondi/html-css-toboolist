@@ -55,19 +55,43 @@ main section button {
   padding-bottom: 20px;
 }
 
+.done::before {
+  content: "✓";
+  font-size: 0.6rem;
+  padding: 3px 5px;
+  border: 1px solid #9fbfb5;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  color: #9fbfb5;
+}
+
+.miss::before {
+  content: "✕";
+  font-size: 0.6rem;
+  padding: 3px 5px;
+  border: 1px solid red;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  color: red;
+}
+
 /* Header */
 
 header .logo img {
-  width: 80px;
+  width: 50px;
 }
 
 /* Main */
 
 div.container {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 10px;
   padding: 10px 30px;
 }
+
+/* Butoon Section */
 
 div section.container button#addtask {
   background-color: #46adf3;
@@ -77,4 +101,21 @@ div section.container button#addtask {
 div section.container button#addsection {
   background-color: white;
   color: #ced0cf;
+}
+
+/* list section */
+section div.list {
+  margin-bottom: 30px;
+}
+
+section div.list h2::before {
+  content: "▼ ";
+  font-size: 0.8rem;
+}
+section div.list div.element {
+  margin: 10px 0;
+}
+
+section div.list div.element span {
+  padding: 0 5px;
 }
