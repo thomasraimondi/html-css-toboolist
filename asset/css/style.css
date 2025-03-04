@@ -8,11 +8,18 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: #f6f8fa;
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
+}
+
+main section button {
+  padding: 5px;
+  border: 1px solid #ced0cf;
+  border-radius: 5px;
 }
 
 /* Utils */
@@ -29,20 +36,26 @@ body {
   border-color: red;
 }
 
-/* Header */
-header {
+.align-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bg-white {
   background-color: white;
 }
 
-header h1 {
-  display: inline-block;
-  vertical-align: middle;
+.pdlr-50 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-header .logo {
-  display: inline-block;
-  vertical-align: middle;
+.pdtd-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+/* Header */
 
 header .logo img {
   width: 80px;
@@ -50,6 +63,18 @@ header .logo img {
 
 /* Main */
 
-main {
-  background-color: #f6f8fa;
+div.container {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+}
+
+div section.container button#addtask {
+  background-color: #46adf3;
+  color: white;
+}
+
+div section.container button#addsection {
+  background-color: white;
+  color: #ced0cf;
 }
