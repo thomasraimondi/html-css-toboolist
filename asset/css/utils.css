@@ -1,0 +1,73 @@
+.align-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.padding-left-right-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.padding-top-bottom-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.done::before {
+  content: "✓";
+  font-size: 0.6rem;
+  padding: 3px 5px;
+  border: 1px solid #9fbfb5;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  color: #9fbfb5;
+}
+
+.miss::before {
+  content: "✕";
+  font-size: 0.6rem;
+  padding: 3px 5px;
+  border: 1px solid red;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  color: red;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-blue {
+  background-color: #3daff2;
+}
+.bg-darkgree {
+  background-color: #65c3ac;
+}
+.bg-violet {
+  background-color: #9c72e9;
+}
+.bg-orange {
+  background-color: #eea337;
+}
+.bg-pink {
+  background-color: #d6679e;
+}
+.bg-green {
+  background-color: #afc92a;
+}
+.flex {
+  display: flex;
+}
+.justify-beetwen {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
