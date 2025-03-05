@@ -12,8 +12,16 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 300px;
 }
 
 /********************* Utils *****************************/
@@ -77,6 +85,20 @@ body {
 .bg-green {
   background-color: #afc92a;
 }
+.flex {
+  display: flex;
+}
+.justify-beetwen {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
 
 /********************* Header *****************************/
 
@@ -90,10 +112,11 @@ header .logo img {
 
 /********************* Main *****************************/
 
-main section button {
+main section a {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #ced0cf;
+  text-decoration: none;
 }
 
 div.container {
@@ -104,12 +127,16 @@ div.container {
 
 /********************* Section Button *****************************/
 
-div section.container button#addtask {
+div section.container a#addtask {
   background-color: #46adf3;
   color: white;
 }
 
-div section.container button#addsection {
+div section.container a#addtask:hover {
+  background-color: red;
+}
+
+div section.container a#addsection {
   background-color: white;
   color: #ced0cf;
 }
